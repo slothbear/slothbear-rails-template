@@ -25,5 +25,6 @@ end
 
 gem 'foreman', '~> 0.75.0'
 gem 'unicorn', '~> 4.8.3'
+gem 'version', '~> 1.0.0'
 
 gem 'rails_12factor', '~> 0.0.3', group: :production
