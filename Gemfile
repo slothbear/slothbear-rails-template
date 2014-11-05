@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.1.2'
 
 # via rails new
 gem 'rails', '4.2.0.beta4'
