@@ -23,6 +23,7 @@ group :development do
   gem 'better_errors', '~> 2.0.0'
   gem 'binding_of_caller', '0.7.3.pre1'
   gem 'heroku_san', '~> 4.3.2'
+  gem 'meta_request', '~> 0.3.4'
   gem 'rails-footnotes', '~> 4.1.2'
 end
 
