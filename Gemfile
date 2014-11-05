@@ -21,6 +21,7 @@ end
 
 group :development do
   gem 'heroku_san', '~> 4.3.2'
+  gem 'rails-footnotes', '~> 4.1.2'
 end
 
 gem 'foreman', '~> 0.75.0'
