@@ -18,3 +18,6 @@ group :development, :test do
   gem 'spring', '~> 1.1.3'
 end
 #/ via rails new
+
+gem 'foreman', '~> 0.75.0'
+gem 'unicorn', '~> 4.8.3'
