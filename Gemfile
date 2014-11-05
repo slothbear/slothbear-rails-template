@@ -19,5 +19,11 @@ group :development, :test do
 end
 #/ via rails new
 
+group :development do
+  gem 'heroku_san', '~> 4.3.2'
+end
+
 gem 'foreman', '~> 0.75.0'
 gem 'unicorn', '~> 4.8.3'
+
+gem 'rails_12factor', '~> 0.0.3', group: :production

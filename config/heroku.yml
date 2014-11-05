@@ -1,0 +1,9 @@
+production:
+  app: amc2
+  config:
+    BUNDLE_WITHOUT: "development:test"
+
+staging:
+  app: amc2-staging
+  config:
+    BUNDLE_WITHOUT: "development:test"
