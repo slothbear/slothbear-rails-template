@@ -48,6 +48,7 @@ group :development do
   gem 'pry', '~> 0.10.1'
   gem 'rails-footnotes', '~> 4.1.2'
   gem 'quiet_assets', '~> 1.0.3'
+  gem 'simple_form', '~> 3.0.2'
 end
 
 gem 'bourbon', '~> 4.0.2'
