@@ -2,8 +2,14 @@
   = link_to "the scan artist", "http://morganthall.com"
 
 .content
-  Welcome to the home page.
-  %blockquote
-    You can't have everything. Where would you put it?
-    %br
-    —Steven Wright
+  .cards
+    .card
+      .card-image
+        = image_tag "treehouse.jpg", alt: "photo by https://www.flickr.com/photos/colmmcsky"
+      .card-header
+        Welcome to the home page.
+      .card-copy
+        %pre
+          You can't have everything.
+          Where would you put it?
+          —Steven Wright
