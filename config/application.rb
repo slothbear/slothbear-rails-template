@@ -32,7 +32,7 @@ module Amc2
     config.active_record.raise_in_transactional_callbacks = true
 
     # Via Everyday Rails Testing with Rspec
-    config.generators do|g|
+    config.generators do |g|
       g.test_framework :rspec,
       fixtures: true,
       view_specs: false,

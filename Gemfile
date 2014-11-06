@@ -20,8 +20,11 @@ end
 #/ via rails new
 
 group :development,:test do
-  gem 'rspec-rails', '~> 3.1.0'
   gem 'factory_girl_rails', '~> 4.4.1'
+  gem 'guard-rspec', '~> 4.3.1'
+  gem 'rspec-rails', '~> 3.1.0'
+  gem 'spring-commands-rspec', '~> 1.0.2'
+  gem 'terminal-notifier-guard', '~> 1.6.4'
 end
 
 group :test do
