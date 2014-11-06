@@ -8,4 +8,5 @@ Rails.application.load_tasks
 require 'rake/version_task'
 Rake::VersionTask.new do |task|
   task.filename = 'REVISION'
+  task.with_git_tag = true
 end
