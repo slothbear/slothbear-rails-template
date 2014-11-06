@@ -44,8 +44,7 @@ Rails.application.configure do
   config.rack_dev_mark.theme =
     [:title,
     Rack::DevMark::Theme::GithubForkRibbon.new(
-      position: 'right',
-      color: 'green')]
+      position: 'right', color: 'green')]
 
   config.action_mailer.preview_path = "#{Rails.root}/spec/mailers/previews"
 end

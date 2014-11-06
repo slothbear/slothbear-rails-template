@@ -74,4 +74,11 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # This banner is only displayed if RACK_DEV_MARK_ENV is set.
+  # The env is set on the staging server, but not on production.
+  config.rack_dev_mark.theme =
+    [:title,
+    Rack::DevMark::Theme::GithubForkRibbon.new(
+      position: 'right', color: 'orange')]
 end
