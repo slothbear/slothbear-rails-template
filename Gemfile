@@ -21,6 +21,7 @@ end
 
 group :development,:test do
   gem 'factory_girl_rails', '~> 4.4.1'
+  gem 'guard-bundler', '~> 2.0.0'
   gem 'guard-rspec', '~> 4.3.1'
   gem 'rspec-rails', '~> 3.1.0'
   gem 'spring-commands-rspec', '~> 1.0.2'
@@ -33,6 +34,7 @@ group :test do
   gem 'database_cleaner', '~> 1.3.0'
   gem 'launchy', '~> 2.4.2'
   gem 'selenium-webdriver', '~> 2.43.0'
+  gem 'simplecov', '~> 0.9.1', :require => false
 end
 
 group :development do
