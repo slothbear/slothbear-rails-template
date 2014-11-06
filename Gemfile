@@ -19,6 +19,26 @@ group :development, :test do
 end
 #/ via rails new
 
+group :development,:test do
+  gem 'factory_girl_rails', '~> 4.4.1'
+  gem 'guard-bundler', '~> 2.0.0'
+  gem 'guard-cucumber', '~> 1.5.1'
+  gem 'guard-rspec', '~> 4.3.1'
+  gem 'rspec-rails', '~> 3.1.0'
+  gem 'spring-commands-rspec', '~> 1.0.2'
+  gem 'terminal-notifier-guard', '~> 1.6.4'
+end
+
+group :test do
+  gem 'cucumber-rails', '~> 1.4.2', :require => false
+  gem 'faker', '~> 1.4.3'
+  gem 'capybara', '~> 2.4.3'
+  gem 'database_cleaner', '~> 1.3.0'
+  gem 'launchy', '~> 2.4.2'
+  gem 'selenium-webdriver', '~> 2.43.0'
+  gem 'simplecov', '~> 0.9.1', :require => false
+end
+
 group :development do
   gem 'better_errors', '~> 2.0.0'
   gem 'binding_of_caller', '0.7.3.pre1'
