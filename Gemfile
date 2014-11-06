@@ -47,6 +47,7 @@ group :development do
   gem 'meta_request', '~> 0.3.4'
   gem 'pry', '~> 0.10.1'
   gem 'rails-footnotes', '~> 4.1.2'
+  gem 'quiet_assets', '~> 1.0.3'
 end
 
 gem 'bourbon', '~> 4.0.2'
