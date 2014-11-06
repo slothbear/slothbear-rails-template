@@ -52,6 +52,7 @@ end
 gem 'bourbon', '~> 4.0.2'
 gem 'foreman', '~> 0.75.0'
 gem 'haml-rails', '~> 0.5.3'
+gem 'neat', '~> 1.7.0'
 gem 'rack-dev-mark', '~> 0.7.3'
 gem 'unicorn', '~> 4.8.3'
 gem 'version', '~> 1.0.0'

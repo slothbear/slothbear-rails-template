@@ -1,3 +1,17 @@
 body {
   font-family: $verdana;
 }
+
+.container {
+  @include outer-container;
+}
+
+.content {
+  @include span-columns(10);
+}
+
+.sidebar {
+  @include span-columns(2);
+  @include omega();
+}
+
