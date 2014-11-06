@@ -1,6 +1,8 @@
 defined?(Footnotes) && Footnotes.setup do |f|
   # Whether or not to enable footnotes
+  # :nocov:
   f.enabled = Rails.env.development?
+  # :nocov:
   # You can also use a lambda / proc to conditionally toggle footnotes
   # Example :
   # f.enabled = -> { User.current.admin? }
