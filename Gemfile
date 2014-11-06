@@ -55,6 +55,7 @@ gem 'haml-rails', '~> 0.5.3'
 gem 'neat', '~> 1.7.0'
 gem 'normalize-rails', '~> 3.0.1'
 gem 'rack-dev-mark', '~> 0.7.3'
+gem 'refills', '~> 0.0.2'
 gem 'unicorn', '~> 4.8.3'
 gem 'version', '~> 1.0.0'
 
