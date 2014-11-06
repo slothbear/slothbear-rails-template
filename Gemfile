@@ -49,6 +49,7 @@ group :development do
   gem 'rails-footnotes', '~> 4.1.2'
 end
 
+gem 'bourbon', '~> 4.0.2'
 gem 'foreman', '~> 0.75.0'
 gem 'rack-dev-mark', '~> 0.7.3'
 gem 'unicorn', '~> 4.8.3'
