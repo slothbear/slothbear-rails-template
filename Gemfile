@@ -48,7 +48,6 @@ group :development do
   gem 'pry', '~> 0.10.1'
   gem 'rails-footnotes', '~> 4.1.2'
   gem 'quiet_assets', '~> 1.0.3'
-  gem 'simple_form', '~> 3.0.2'
 end
 
 gem 'bourbon', '~> 4.0.2'
@@ -58,6 +57,7 @@ gem 'neat', '~> 1.7.0'
 gem 'normalize-rails', '~> 3.0.1'
 gem 'rack-dev-mark', '~> 0.7.3'
 gem 'refills', '~> 0.0.2'
+gem 'simple_form', '~> 3.0.2'
 gem 'unicorn', '~> 4.8.3'
 gem 'version', '~> 1.0.0'
 
