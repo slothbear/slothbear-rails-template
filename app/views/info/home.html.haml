@@ -7,6 +7,16 @@
     You can't have everything.
     Where would you put it?
     —Steven Wright
-  If you had everthing, where would you put it?
+  If you had everything, where would you put it?
+  %br
+  Suggestion: try putting it in zip code
+  - def rdigit;rand(10);end
+  .badges
+    .badge=rdigit
+    .badge.dark=rdigit
+    .badge.error=rdigit
+    .badge.notice=rdigit
+    .badge.success=rdigit
+
   = simple_form_for :steven, :url => '/' do |form|
     = form.text_field :place
