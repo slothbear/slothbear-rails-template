@@ -1,4 +1,4 @@
-@import "refills/cards";
+@import "refills/badges";
 
 body {
   font-family: $verdana;
@@ -16,4 +16,3 @@ body {
   @include span-columns(2);
   @include omega();
 }
-

@@ -2,17 +2,21 @@
   = link_to "the scan artist", "http://morganthall.com"
 
 .content
-  .cards
-    .card
-      .card-image
-        = image_tag "treehouse.jpg", alt: "photo by https://www.flickr.com/photos/colmmcsky"
-      .card-header
-        Welcome to the home page.
-      .card-copy
-        %pre
-          You can't have everything.
-          Where would you put it?
-          —Steven Wright
-        Where would you put it?
-        = simple_form_for :steven, :url => '/' do |form|
-          = form.text_field :place
+  Welcome to the home page.
+  %pre
+    You can't have everything.
+    Where would you put it?
+    —Steven Wright
+  If you had everything, where would you put it?
+  %br
+  Suggestion: try putting it in zip code
+  - def rdigit;rand(10);end
+  .badges
+    .badge=rdigit
+    .badge.dark=rdigit
+    .badge.error=rdigit
+    .badge.notice=rdigit
+    .badge.success=rdigit
+
+  = simple_form_for :steven, :url => '/' do |form|
+    = form.text_field :place
