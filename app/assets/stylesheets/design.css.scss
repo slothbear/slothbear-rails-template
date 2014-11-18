@@ -1,5 +1,3 @@
-@import "refills/cards";
-
 body {
   font-family: $verdana;
 }
@@ -16,4 +14,3 @@ body {
   @include span-columns(2);
   @include omega();
 }
-
